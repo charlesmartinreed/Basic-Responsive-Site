@@ -17,6 +17,8 @@ body {
 	overflow: hidden; /* used when content will exceed parent container bounds */
 }
 
+
+
 ul {
 	margin: 0;
 	padding: 0;
@@ -93,6 +95,7 @@ header .highlight, header .current a {
 	font-size: 20px;
 }
 
+/* NEWSLETTER */
 #newsletter {
 	padding: 15px;
 	color: #FFF;
@@ -115,3 +118,25 @@ header .highlight, header .current a {
 }
 
 /* BOXES */
+#boxes {
+	margin-top: 20px;
+}
+
+#boxes .box {
+	width: 30%;
+	float: left;
+	padding: 10px;
+	text-align: center;
+}
+
+#boxes .box img {
+	width: 60px;
+}
+
+footer {
+	padding: 20px;
+	margin-top: 20px;
+	color: white;
+	background-color: #EA7454;
+	text-align: center;
+}
