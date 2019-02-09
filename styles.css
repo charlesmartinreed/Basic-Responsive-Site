@@ -151,6 +151,32 @@ article#main-col {
 	width: 65%;
 }
 
+/* SERVICES.html */
+ul#services li {
+	list-style: none;
+	padding: 20px;
+	border: #CCC solid 1px;
+	margin-bottom: 5px;
+	background: #E6E6E6;
+}
+ul#services p:last-of-type {
+	text-align: right;
+	font-weight: 700;
+}
+
+/* SIDEBAR */
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+	width: 90%;
+	padding: 5px;
+}
+
+aside#sidebar .btn-1 {
+	margin-top: 10px;
+	position: relative;
+	left: 35%;
+}
+
 footer {
 	padding: 20px;
 	margin-top: 20px;
