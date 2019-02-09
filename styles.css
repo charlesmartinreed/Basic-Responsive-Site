@@ -17,8 +17,6 @@ body {
 	overflow: hidden; /* used when content will exceed parent container bounds */
 }
 
-
-
 ul {
 	margin: 0;
 	padding: 0;
@@ -30,6 +28,14 @@ ul {
 	height: 38px;
 	background: #EA7454;
 	color: white;
+}
+
+.dark {
+	padding: 15px;
+	background: #35424A;
+	color: #FFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 /* Header */
@@ -131,6 +137,18 @@ header .highlight, header .current a {
 
 #boxes .box img {
 	width: 60px;
+}
+
+/* ABOUT.html - SIDEBAR */
+aside#sidebar {
+	float: right;
+	width: 30%;
+}
+
+/* ABOUT.html - MAIN COL */
+article#main-col {
+	float: left;
+	width: 65%;
 }
 
 footer {
